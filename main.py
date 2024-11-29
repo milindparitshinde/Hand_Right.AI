@@ -14,7 +14,8 @@ nltk.download('words')
 
 
 # Set the path to Tesseract executable (update this path based on your system)
-pytesseract.pytesseract.tesseract_cmd = r'/opt/homebrew/bin//tesseract'#'/usr/local/bin/tesseract'
+pytesseract.pytesseract.tesseract_cmd = 'tesseract'
+#'/usr/local/bin/tesseract'
 
 # Preprocessing function
 def preprocess_image(image_path):
