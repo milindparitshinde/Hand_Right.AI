@@ -14,7 +14,7 @@ nltk.download('words')
 
 
 # Set the path to Tesseract executable (update this path based on your system)
-pytesseract.pytesseract.tesseract_cmd = 'tesseract'
+pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 #'/usr/local/bin/tesseract'
 
 # Preprocessing function
